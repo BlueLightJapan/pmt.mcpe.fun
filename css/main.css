@@ -1,0 +1,31 @@
+/*
+Redesign of pmt.mcpe.fun made by (C) Ad5001 2017
+*/
+
+/* Menu */
+ul.menu li {
+    background-color: lime;
+	list-style-type: none;
+	padding: 0 0 20px 0;
+    margin-left: -30px;
+    padding-top: 10px;
+    border: 1px solid black;
+    border-radius: 7px;
+    vertical-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul.menu {
+    text-align: center;
+}
+
+
+/* General content */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+h1, h2, h3, p, a, body {
+    font-family: "Ubuntu", Arial
+}
