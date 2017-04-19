@@ -144,7 +144,7 @@ if(!$jsonExpected):
 	}
 	echo <<<EOP
 <h1>Phar has been successfully created.</h1>
-<p><a href="$url">Download the phar here</a>, or download with an alternative name:</p>
+<p><a href="/data/dl.php?name=$basename">Download the phar here</a>, or download with an alternative name:</p>
 <iframe width="500" src="/data/dlPhar.php?path=$basename"></iframe>
 <p>The download link is available for at least two hours.</p>
 EOP;

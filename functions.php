@@ -1,5 +1,6 @@
 <?php
 
+ini_set("display_errors", -1);
 const IS_UNDER_MAINTENANCE = false;
 if(IS_UNDER_MAINTENANCE and $_SERVER["REMOTE_ADDR"] !== "14.199.247.137"){
 	header("Content-Type: text/plain");
@@ -20,10 +21,10 @@ register_shutdown_function(function(){
 	}
 });
 
-define("htdocs", "/var/www/html/", true);
+define("htdocs", "/var/www/pmt.mcpe.fun/", true);
 define("SERVER_PATH", "/var/www/", true);
 
-define("DATA_PATH", "/var/www/html/data/");
+define("DATA_PATH", "/var/www/pmt.mcpe.fun/data/");
 @mkdir(DATA_PATH, 0777, true);
 @mkdir(DATA_PATH . "phars");
 define("TMP_PATH", SERVER_PATH . "tmp/");

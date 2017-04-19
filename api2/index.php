@@ -41,10 +41,10 @@ if(isset($_FILES["phar"])){
 		header("Content-Type: text/plain");
 	}
 
-	$replaceUse = ($_REQUEST["nbt-use"] ?? "off") === "on";
-	$replaceFQN = ($_REQUEST["nbt-fqn"] ?? "off") === "on";
-	$replaceNew = ($_REQUEST["nbt-new"] ?? "off") === "on";
-	$replaceInstanceOf = ($_REQUEST["nbt-instanceof"] ?? "off") === "on";
+	$replaceUse = ($_REQUEST["nbt-use"] !== null ? $_REQUEST["nbt-use"] : "off") === "on";
+	$replaceFQN = ($_REQUEST["nbt-fqn"] !== null ? $_REQUEST["nbt-fqn"] : "off") === "on";
+	$replaceNew = ($_REQUEST["nbt-new"] !== null ? $_REQUEST["nbt-new"] : "off") === "on";
+	$replaceInstanceOf = ($_REQUEST["nbt-instanceof"] !== null ? $_REQUEST["nbt-instanceof"] : "off") === "on";
 	if($replaceUse or $replaceFQN or $replaceNew or $replaceInstanceOf){
 		$refactorTable = [
 			"ByteArray" => "ByteArrayTag",
