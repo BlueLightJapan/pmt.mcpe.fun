@@ -144,8 +144,9 @@ if(!$jsonExpected):
 	}
 	echo <<<EOP
 <h1>Pharの作成に成功しました</h1>
+
 <p><a href="/data/phars/$basename">pharをここからダウンロードします</a></p>
-<?php readfile("ad.txt");?>
+readfile("ad.txt");
 <p>少なくとも、２時間はファイルがダウンロードできます。</p>
 EOP;
 	echo _("<p> $itv 秒前に, $cnt 個pharが作られています</p>");

@@ -15,11 +15,11 @@ textdomain(PACKAGE);
 	<ul class="menu">
 		<li><a href="/phar.php" target="content"><?php echo _('ZipからPharに変換'); ?></a></li><br>
 		<li><a href="/unphar.php" target="content"><?php echo _('PharからZipに変換する'); ?></a></li><br>
-
+        <li><?php readfile("ad.txt");?></li>
         <li><a href="/varDump.php" target="content"><?php echo _('<code>var_dump()</code> ビュアー (<code>xdebug</code>-スタイルのダンプはサポートしません)'); ?></a></li><br>
 		<li><a href="/crashdump/" target="content"><?php echo _('PocketMineのCrash Dump解析'); ?></a></li><br>
 		<!--<li><a href="/pmb/" target="content"><?php echo _('PocketMineのpharの作成'); ?></a></li><br>-->
-        <li><?php readfile("ad.txt");?></li>
+
 	</ul>
 	<input type="button" value="<?php echo _('ページを更新'); ?>" onclick="parent.content.location.reload()">
 	<br>

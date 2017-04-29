@@ -18,22 +18,24 @@ textdomain(PACKAGE);
 </head>
 <body>
 	<h1><?php echo _('Pharメーカー'); ?></h1>
-    <?php readfile("ad.txt");?>
 	<h3><?php echo _('使い方'); ?></h3>
 	<ol>
 		<li><?php echo _('もちろん、プラグインのコードそのものは書いてください　:D'); ?></li>
 		<li><?php echo _('正しい形（namespace)などのファイルやフォルダを用意してくださ'); ?></li>
 		<li><?php echo _('zipで圧縮してください。 ZIPファイルのどこにでもファイルを置けますが, plugin.ymlとsrcフォルダとその中身は正しく入れてください。'); ?></li>
-		<li><?php echo _('そｒをアップロードしてください :)'); ?></li>
+		<li><?php echo _('それをアップロードしてください :)'); ?></li>
 	</ol>
+
 	<form method="post" action="/phar-result.php" enctype="multipart/form-data">
 		<p><input type="file" name="file"></p>
+        <?php readfile("ad.txt");?>
 		<p><?php echo _('スタブ (知らない設定はそのままにしてください):'); ?>
 			<?php
 			echo '<input type="text" name="stub" value="';
 			echo '<?php __HALT_COMPILER();';
 			echo '" size="100" id="stubInput">';
 			?>
+
 			<button onclick="fillPmStub(); return false;"><?php echo _('PocketMine-MP.pharのスタブを使うか'); ?></button>
 		</p>
 		<p><?php echo _('プラグイン調整機能:'); ?> <br>
@@ -57,7 +59,6 @@ textdomain(PACKAGE);
 	このサービスは無料で提供されており、常に利用可能であることが保証されていません。
 	作業の過程で、 ファイルは、 （ウェブサイトからアクセス可能でないであろう）サーバのファイルシステム上のファイルに抽出し、一定期間保管します。
 	私たちは（このウェブサイトの所有者）は、著作権侵害やその他の違法行為に関連する行為のための責任を負いません。"); ?>
-    <?php readfile("ad.txt");?>
 </pre>
 </body>
 </html>

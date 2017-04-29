@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="351af737-75bf-42d1-a2eb-242eca9c9bcd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phar-result.php" afterPath="$PROJECT_DIR$/phar-result.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phar.php" afterPath="$PROJECT_DIR$/phar.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketmine-frame-left.php" afterPath="$PROJECT_DIR$/pocketmine-frame-left.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketmine-frame-up.php" afterPath="$PROJECT_DIR$/pocketmine-frame-up.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unphar.php" afterPath="$PROJECT_DIR$/unphar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unpharResult.php" afterPath="$PROJECT_DIR$/unpharResult.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,8 +20,8 @@
       <file leaf-file-name="pocketmine-frame-left.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pocketmine-frame-left.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="49" lean-forward="false" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+            <state relative-caret-position="289">
+              <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -43,26 +40,26 @@
       <file leaf-file-name="phar.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/phar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-331">
-              <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+            <state relative-caret-position="306">
+              <caret line="30" column="35" lean-forward="false" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
               <folding>
-                <marker date="1493463637292" expanded="true" signature="299:371" ph="..." />
-                <marker date="1493463637292" expanded="true" signature="323:371" ph="{...}" />
-                <marker date="1493463637292" expanded="true" signature="1042:1102" ph="..." />
-                <marker date="1493463637292" expanded="true" signature="1819:1836" ph="..." />
-                <marker date="1493463637292" expanded="true" signature="2345:2361" ph="..." />
+                <marker date="1493463978846" expanded="true" signature="299:371" ph="..." />
+                <marker date="1493463978846" expanded="true" signature="323:371" ph="{...}" />
+                <marker date="1493463978846" expanded="true" signature="1011:1107" ph="..." />
+                <marker date="1493463978846" expanded="true" signature="1825:1842" ph="..." />
+                <marker date="1493463978846" expanded="true" signature="2351:2367" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="phar-result.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="phar-result.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/phar-result.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="147" column="27" lean-forward="false" selection-start-line="147" selection-start-column="27" selection-end-line="147" selection-end-column="27" />
+            <state relative-caret-position="179">
+              <caret line="148" column="19" lean-forward="false" selection-start-line="148" selection-start-column="19" selection-end-line="148" selection-end-column="19" />
               <folding>
-                <marker date="1493463706310" expanded="true" signature="4400:4501" ph="..." />
+                <marker date="1493464108068" expanded="true" signature="4393:4494" ph="..." />
               </folding>
             </state>
           </provider>
@@ -110,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pocketmine-frame-up.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pocketmine-frame-up.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pocketmine-frame-up.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            <state relative-caret-position="238">
+              <caret line="14" column="98" lean-forward="false" selection-start-line="14" selection-start-column="98" selection-end-line="14" selection-end-column="98" />
               <folding />
             </state>
           </provider>
@@ -150,12 +147,12 @@
       <list>
         <option value="$PROJECT_DIR$/lang/setlang.php" />
         <option value="$PROJECT_DIR$/functions.php" />
-        <option value="$PROJECT_DIR$/pocketmine-frame-left.php" />
         <option value="$PROJECT_DIR$/unphar.php" />
         <option value="$PROJECT_DIR$/unpharResult.php" />
-        <option value="$PROJECT_DIR$/pocketmine-frame-up.php" />
+        <option value="$PROJECT_DIR$/pocketmine-frame-left.php" />
         <option value="$PROJECT_DIR$/phar.php" />
         <option value="$PROJECT_DIR$/phar-result.php" />
+        <option value="$PROJECT_DIR$/pocketmine-frame-up.php" />
       </list>
     </option>
   </component>
@@ -294,12 +291,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1493443283127</updated>
-      <workItem from="1493443284524" duration="6735000" />
+      <workItem from="1493443284524" duration="7136000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6735000" />
+    <option name="totallyTimeSpent" value="7136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -435,14 +432,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pocketmine-frame-left.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="49" lean-forward="false" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/unphar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -485,35 +474,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pocketmine-frame-up.php">
+    <entry file="file://$PROJECT_DIR$/pocketmine-frame-left.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        <state relative-caret-position="289">
+          <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/phar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-331">
-          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        <state relative-caret-position="306">
+          <caret line="30" column="35" lean-forward="false" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
           <folding>
-            <marker date="1493463637292" expanded="true" signature="299:371" ph="..." />
-            <marker date="1493463637292" expanded="true" signature="323:371" ph="{...}" />
-            <marker date="1493463637292" expanded="true" signature="1042:1102" ph="..." />
-            <marker date="1493463637292" expanded="true" signature="1819:1836" ph="..." />
-            <marker date="1493463637292" expanded="true" signature="2345:2361" ph="..." />
+            <marker date="1493463978846" expanded="true" signature="299:371" ph="..." />
+            <marker date="1493463978846" expanded="true" signature="323:371" ph="{...}" />
+            <marker date="1493463978846" expanded="true" signature="1011:1107" ph="..." />
+            <marker date="1493463978846" expanded="true" signature="1825:1842" ph="..." />
+            <marker date="1493463978846" expanded="true" signature="2351:2367" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/phar-result.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="147" column="27" lean-forward="false" selection-start-line="147" selection-start-column="27" selection-end-line="147" selection-end-column="27" />
+        <state relative-caret-position="179">
+          <caret line="148" column="19" lean-forward="false" selection-start-line="148" selection-start-column="19" selection-end-line="148" selection-end-column="19" />
           <folding>
-            <marker date="1493463706310" expanded="true" signature="4400:4501" ph="..." />
+            <marker date="1493464108068" expanded="true" signature="4393:4494" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pocketmine-frame-up.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="98" lean-forward="false" selection-start-line="14" selection-start-column="98" selection-end-line="14" selection-end-column="98" />
+          <folding />
         </state>
       </provider>
     </entry>
