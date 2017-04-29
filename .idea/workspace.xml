@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="351af737-75bf-42d1-a2eb-242eca9c9bcd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phar-result.php" afterPath="$PROJECT_DIR$/phar-result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phar.php" afterPath="$PROJECT_DIR$/phar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketmine-frame-left.php" afterPath="$PROJECT_DIR$/pocketmine-frame-left.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketmine-frame-up.php" afterPath="$PROJECT_DIR$/pocketmine-frame-up.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -111,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/pocketmine-frame-up.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="98" lean-forward="false" selection-start-line="14" selection-start-column="98" selection-end-line="14" selection-end-column="98" />
+              <caret line="14" column="71" lean-forward="false" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -291,12 +288,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1493443283127</updated>
-      <workItem from="1493443284524" duration="7136000" />
+      <workItem from="1493443284524" duration="7745000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7136000" />
+    <option name="totallyTimeSpent" value="7745000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -509,7 +506,7 @@
     <entry file="file://$PROJECT_DIR$/pocketmine-frame-up.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="98" lean-forward="false" selection-start-line="14" selection-start-column="98" selection-end-line="14" selection-end-column="98" />
+          <caret line="14" column="71" lean-forward="false" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
           <folding />
         </state>
       </provider>

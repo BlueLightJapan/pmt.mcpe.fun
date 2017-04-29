@@ -12,7 +12,7 @@ textdomain(PACKAGE);
 </head>
 <body>
 	<h1>
-		<a name="title"><?php echo _('PocketMine-MPプラグイン作成ツール'); ?></a><?php readfile("ad.txt");?>
+		<a name="title"><?php echo _('PocketMine-MPプラグイン作成ツール'); ?></a>
 	</h1>
 
 	<?php echo _('このプロジェクトはオープンソースです
