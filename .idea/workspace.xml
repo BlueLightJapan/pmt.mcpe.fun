@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="351af737-75bf-42d1-a2eb-242eca9c9bcd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lang/fr_FR/LC_MESSAGES/phar-result.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lang/fr_FR/LC_MESSAGES/phar-result.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lang/fr_FR/LC_MESSAGES/phar.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lang/fr_FR/LC_MESSAGES/phar.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lang/fr_FR/LC_MESSAGES/pocketmine-frame-left.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lang/fr_FR/LC_MESSAGES/pocketmine-frame-left.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lang/fr_FR/LC_MESSAGES/pocketmine-frame-up.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lang/fr_FR/LC_MESSAGES/pocketmine-frame-up.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lang/fr_FR/LC_MESSAGES/unphar.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lang/fr_FR/LC_MESSAGES/unphar.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lang/fr_FR/LC_MESSAGES/varDump.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lang/fr_FR/LC_MESSAGES/varDump.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lang/ja_JP/LC_MESSAGES/pocketmine-frame-left.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lang/ja_JP/LC_MESSAGES/pocketmine-frame-left.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lang/ja_JP/LC_MESSAGES/pocketmine-frame-up.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lang/ja_JP/LC_MESSAGES/pocketmine-frame-up.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lang/zh_TW/LC_MESSAGES/phar-result.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lang/zh_TW/LC_MESSAGES/phar-result.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lang/zh_TW/LC_MESSAGES/phar.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lang/zh_TW/LC_MESSAGES/phar.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lang/zh_TW/LC_MESSAGES/pocketmine-frame-left.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lang/zh_TW/LC_MESSAGES/pocketmine-frame-left.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lang/zh_TW/LC_MESSAGES/pocketmine-frame-up.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lang/zh_TW/LC_MESSAGES/pocketmine-frame-up.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lang/zh_TW/LC_MESSAGES/unphar.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lang/zh_TW/LC_MESSAGES/unphar.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lang/zh_TW/LC_MESSAGES/varDump.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lang/zh_TW/LC_MESSAGES/varDump.po" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pocketmine-frame-left.php" afterPath="$PROJECT_DIR$/pocketmine-frame-left.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lang/setlang.php" afterPath="$PROJECT_DIR$/lang/setlang.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,16 +14,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7667">
-              <caret line="451" column="44" lean-forward="false" selection-start-line="451" selection-start-column="44" selection-end-line="451" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pocketmine.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pocketmine.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -84,6 +44,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="setlang.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lang/setlang.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="unpharResult.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unpharResult.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -108,7 +78,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="varDumpResult.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="varDumpResult.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/varDumpResult.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -164,9 +134,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pocketmine-frame-up.php" />
-        <option value="$PROJECT_DIR$/lang/setlang.php" />
         <option value="$PROJECT_DIR$/pocketmine-frame-left.php" />
         <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/lang/setlang.php" />
       </list>
     </option>
   </component>
@@ -278,12 +248,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1493443283127</updated>
-      <workItem from="1493443284524" duration="928000" />
+      <workItem from="1493443284524" duration="1187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="928000" />
+    <option name="totallyTimeSpent" value="1187000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -323,14 +293,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-204">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lang/setlang.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="50" lean-forward="false" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
           <folding />
         </state>
       </provider>
@@ -401,7 +363,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pocketmine.php">
+    <entry file="file://$PROJECT_DIR$/varDumpResult.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -409,7 +371,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/varDump.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1493440854345" expanded="true" signature="458:464" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unpharResult.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-816">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1493440854345" expanded="true" signature="2322:2485" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pocketmine-frame-down.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pocketmine.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -425,30 +415,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unpharResult.php">
+    <entry file="file://$PROJECT_DIR$/lang/setlang.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-816">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1493440854345" expanded="true" signature="2322:2485" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/varDump.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1493440854345" expanded="true" signature="458:464" ph=" " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/varDumpResult.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="561">
+          <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
           <folding />
         </state>
       </provider>

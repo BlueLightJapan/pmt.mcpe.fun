@@ -31,7 +31,7 @@ if ('en-us' == $lang) {
     putenv('LANG=zh_CN');
     setlocale(LC_ALL, 'zh_CN'); // bsd use zh_CN.GBK
 	header('Content-type: text/html; charset=gbk');
-}else if ('ja-JP' == $lang) {
+}else if ('ja_JP' == $lang) {
     putenv('LANG=ja_JP');
     setlocale(LC_ALL, 'ja_JP'); // bsd use ja_JP.UTF-8
     header('Content-type: text/html; charset=UTF-8');
