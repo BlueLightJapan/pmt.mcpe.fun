@@ -13,10 +13,10 @@ include "functions.php";
 				if(typeof pmt.agree.key !== typeof undefined){
 					agreeKey = pmt.agree.key;
 				}else{
-					agreeLock += "\nType \"yes\" if you agree with the above terms to continue";
+					agreeLock += "\nType \"yes\" 下の規約に同意するならばボタンを押してください";
 				}
 				if(prompt(pmt.agree.lock).toLowerCase() != agreeKey.toLowerCase()){
-					alert("You must agree with the terms to download the zip!");
+					alert("利用規約に同意してください！");
 					window.location.replace("/unphar.php");
 					return;
 				}
@@ -31,7 +31,7 @@ if(!isset($_FILES["file"])){
 	http_response_code(400);
 	echo <<<EOD
 <h1>400 Bad Request</h1>
-<p>No file was uploaded. Page must be accessed with the phar file at the "file" post field.</p>
+<p>postでファイルをアップロードしてください</p>
 EOD;
 	return;
 }
@@ -40,27 +40,27 @@ if($file["error"] !== 0){
 	echo "<h1>Failure</h1>";
 	echo "Invalid upload: ";
 	switch($err = $file["error"]){
-		case UPLOAD_ERR_INI_SIZE:
-			echo "file is too large UPLOAD_ERR_INI_SIZE($err)";
-			break;
-		case UPLOAD_ERR_FORM_SIZE:
-			echo "file is too large UPLOAD_ERR_FORM_SIZE($err)";
-			break;
-		case UPLOAD_ERR_PARTIAL:
-			echo "file is only partially uploaded UPLOAD_ERR_PARTIAL($err)";
-			break;
-		case UPLOAD_ERR_NO_FILE:
-			echo "no file is uploaded UPLOAD_ERR_NO_FILE($err)";
-			break;
-		case UPLOAD_ERR_NO_TMP_DIR:
-			echo "Missing a temporary folder UPLOAD_ERR_NO_TMP_DIR($err)";
-			break;
-		case UPLOAD_ERR_CANT_WRITE:
-			echo "Failed to write file to disk UPLOAD_ERR_CANT_WRITE($err)";
-			break;
-		case UPLOAD_ERR_EXTENSION:
-			echo "A PHP extension stopped the file upload UPLOAD_ERR_EXTENSION($err)";
-			break;
+        case UPLOAD_ERR_INI_SIZE:
+            $errMsg = "ファイルが大きすぎます UPLOAD_ERR_INI_SIZE($err)";
+            break;
+        case UPLOAD_ERR_FORM_SIZE:
+            $errMsg = "ファイルが大きすぎます UPLOAD_ERR_FORM_SIZE($err)";
+            break;
+        case UPLOAD_ERR_PARTIAL:
+            $errMsg = "ファイルが一部しかありません UPLOAD_ERR_PARTIAL($err)";
+            break;
+        case UPLOAD_ERR_NO_FILE:
+            $errMsg = "ファイルがアップロードされていません UPLOAD_ERR_NO_FILE($err)";
+            break;
+        case UPLOAD_ERR_NO_TMP_DIR:
+            $errMsg = "tempフォルダ不調です　UPLOAD_ERR_NO_TMP_DIR($err)";
+            break;
+        case UPLOAD_ERR_CANT_WRITE:
+            $errMsg = "書き込みエラー UPLOAD_ERR_CANT_WRITE($err)";
+            break;
+        case UPLOAD_ERR_EXTENSION:
+            $errMsg = "PHPエクステンションが停止しました UPLOAD_ERR_EXTENSION($err)";
+            break;
 	}
 	goto end;
 }
@@ -79,12 +79,10 @@ if($error){
 usage_inc("unphar", $timestamp);
 echo "<script>var pmt = " + json_encode($pmt) + ";</script>";
 echo <<<EOS
-<h1>Success</h1>
-<p>Phar has been successfully converted to zip.<br>
-Download the ZIP file <a id="dlButton" href="$zipRelativePath">here</a>, or download with an alternative name:</p>
-<p><i><font color="#2f4f4f">The altname download is currently not available.</font></i></p>
-<!--<iframe width="500" src="/data/dlPhar.php?path=$basename"></iframe>-->
-<p>The download link is available for <i>at least</i> <b>2 hours</b>.</p>
+<h1>成功</h1>
+<p>Pharはzipに変換されました<br>
+ <a id="dlButton" href="$zipRelativePath">ダウンロード</a></p>
+<p>２時間は少なくともダウンロード可能です</p>
 EOS;
 end:
 ?>

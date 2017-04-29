@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="351af737-75bf-42d1-a2eb-242eca9c9bcd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phar-result.php" afterPath="$PROJECT_DIR$/phar-result.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unpharResult.php" afterPath="$PROJECT_DIR$/unpharResult.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,7 +59,7 @@
       <file leaf-file-name="unphar.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/unphar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="201">
               <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="24" selection-end-column="59" />
               <folding />
             </state>
@@ -82,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="phar-result.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="phar-result.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/phar-result.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2635">
-              <caret line="157" column="20" lean-forward="false" selection-start-line="157" selection-start-column="20" selection-end-line="157" selection-end-column="20" />
+            <state relative-caret-position="51">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="58" selection-end-column="22" />
               <folding>
                 <marker date="1493462947136" expanded="true" signature="4381:4482" ph="..." />
               </folding>
@@ -94,12 +94,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pm.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pm.php">
+      <file leaf-file-name="unpharResult.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/unpharResult.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="312">
+              <caret line="84" column="22" lean-forward="false" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
+              <folding>
+                <marker date="1493463143778" expanded="true" signature="2310:2387" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,6 +151,7 @@
         <option value="$PROJECT_DIR$/unphar.php" />
         <option value="$PROJECT_DIR$/phar.php" />
         <option value="$PROJECT_DIR$/phar-result.php" />
+        <option value="$PROJECT_DIR$/unpharResult.php" />
       </list>
     </option>
   </component>
@@ -393,12 +396,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1493443283127</updated>
-      <workItem from="1493443284524" duration="5976000" />
+      <workItem from="1493443284524" duration="6172000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5976000" />
+    <option name="totallyTimeSpent" value="6172000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -516,16 +519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unpharResult.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1493440854345" expanded="true" signature="2322:2485" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pm.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -584,14 +577,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unphar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="24" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -606,12 +591,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/unphar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="24" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/phar-result.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2635">
-          <caret line="157" column="20" lean-forward="false" selection-start-line="157" selection-start-column="20" selection-end-line="157" selection-end-column="20" />
+        <state relative-caret-position="51">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="58" selection-end-column="22" />
           <folding>
             <marker date="1493462947136" expanded="true" signature="4381:4482" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unpharResult.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="84" column="22" lean-forward="false" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
+          <folding>
+            <marker date="1493463143778" expanded="true" signature="2310:2387" ph="..." />
           </folding>
         </state>
       </provider>
