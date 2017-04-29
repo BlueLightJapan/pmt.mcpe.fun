@@ -13,7 +13,7 @@ if(!$jsonExpected):
 ?>
 <html>
 <head>
-	<title><?php echo _('Phar creation result'); ?></title>
+	<title><?php echo _('Phar作成結果'); ?></title>
 <link rel="stylesheet" href="/css/main.css" />
 </head>
 <body>
@@ -34,7 +34,7 @@ if(!$jsonExpected):
 	$file = $_FILES["file"];
 	if($file["error"] !== 0){
 		echo _("<h1>Failure</h1>");
-		echo _("Invalid upload: ");
+		echo _("不正なアップロード: ");
 		switch($err = $file["error"]){
 			case UPLOAD_ERR_INI_SIZE:
 				$errMsg = "file is too large UPLOAD_ERR_INI_SIZE($err)";
@@ -143,9 +143,8 @@ if(!$jsonExpected):
 		die;
 	}
 	echo <<<EOP
-<h1>Phar has been successfully created.</h1>
-<p><a href="/data/dl.php?name=$basename">Download the phar here</a>, or download with an alternative name:</p>
-<iframe width="500" src="/data/dlPhar.php?path=$basename"></iframe>
+<h1>Pharの作成に成功しました</h1>
+<p><a href="/data/phars/$basename">pharをここからダウンロードします</a></p>
 <p>The download link is available for at least two hours.</p>
 EOP;
 	echo _("<p>In the past $itv, $cnt phars have been created.</p>");
