@@ -16,7 +16,8 @@ textdomain(PACKAGE);
 <hr>
 <form method="post" action="/unpharResult.php" enctype="multipart/form-data">
 	<p><?php echo _('ここにpharファイルをアップロードしてください:'); ?><br><input type="file" name="file" accept=".phar"></p>
-	<p><input type="submit" value="Convert"></p>
+    <?php readfile("ad.txt");?>
+    <p><input type="submit" value="変換！"></p>
 </form>
 <pre>
 	<?php echo _("免責事項：

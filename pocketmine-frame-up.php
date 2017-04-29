@@ -14,6 +14,7 @@ textdomain(PACKAGE);
 	<h1>
 		<a name="title"><?php echo _('PocketMine-MPプラグイン作成ツール'); ?></a>
 	</h1>
+    <?php readfile("ad.txt");?>
 	<?php echo _('このプロジェクトはオープンソースです
 	<a href="https://github.com/bluelightjapan/pmt.mcpe.fun" target="_blank">GitHub</a>.'); ?>
 	<br>

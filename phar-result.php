@@ -145,11 +145,12 @@ if(!$jsonExpected):
 	echo <<<EOP
 <h1>Pharの作成に成功しました</h1>
 <p><a href="/data/phars/$basename">pharをここからダウンロードします</a></p>
+<?php readfile("ad.txt");?>
 <p>少なくとも、２時間はファイルがダウンロードできます。</p>
 EOP;
 	echo _("<p> $itv 秒前に, $cnt 個pharが作られています</p>");
 	echo "<hr>";
-	echo _("<h2>Inspections</h2>");
+	echo _("<h2>検査</h2>");
 	echo "<ul>";
 	foreach($inspections as $inspection){
 		$inspection->run()->htmlEcho();
@@ -159,6 +160,7 @@ EOP;
 	?>
 	<p><?php echo _(' <a href="http://www.pocketmine.net/pluginReview.php"
 	                                                         target="_blank">公式 PocketMineプラグイン評価ツール</a> でパーミッションや実装の悪さを確認できます'); ?></p>
-	<?php the_end: ?>
+    <?php readfile("ad.txt");?>
+    <?php the_end: ?>
 </body>
 </html>

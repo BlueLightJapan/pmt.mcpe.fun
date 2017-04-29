@@ -18,6 +18,7 @@ textdomain(PACKAGE);
 </head>
 <body>
 	<h1><?php echo _('Pharメーカー'); ?></h1>
+    <?php readfile("ad.txt");?>
 	<h3><?php echo _('使い方'); ?></h3>
 	<ol>
 		<li><?php echo _('もちろん、プラグインのコードそのものは書いてください　:D'); ?></li>
@@ -35,18 +36,19 @@ textdomain(PACKAGE);
 			?>
 			<button onclick="fillPmStub(); return false;"><?php echo _('PocketMine-MP.pharのスタブを使うか'); ?></button>
 		</p>
-		<p><?php echo _('下のプラグイン調整機能を使うか:'); ?> <br>
+		<p><?php echo _('プラグイン調整機能:'); ?> <br>
 			<input type="checkbox" name="tune_top_namespace_optimization">
 				<?php echo _('定数参照を最適化するには、<code>\</code> 接頭語を追加して、それが最上位名前空間参照であ​ることを示します。'); ?><br>
 			<input type="checkbox" name="tune_obfuscation"> <?php echo _('コードの難読化（BluelightやGenisysなどのプラグイン開発者はこれを使ってはいけない可能性があります'); ?>
 		</p>
 		<p><font color="#8b0000"><?php echo _('注意: これらの機能は、php内のコメントを消してしまう恐れがあります'); ?></font></p>
 		<p>
-			<?php echo _('Carry out the following inspections too:'); ?> <br>
+			<?php echo _('検査機能:'); ?> <br>
 			<input type="checkbox" name="inspection_classpath"> <?php echo _('クラスパスのチェック'); ?><br>
 			<input type="checkbox" name="inspection_bad_practice"> <?php echo _('悪い実装の調査 '); ?><br>
 			<input type="checkbox" name="inspection_lint"> <?php echo _('シンタックスエラーの調査'); ?>
 		</p>
+        <?php readfile("ad.txt");?>
 		<p><input type="submit" value="<?php echo _('pharの作成'); ?>"></p>
 	</form>
 	<p><?php echo _('New: フレームページを使ってください <a href="pm.php" target="_parent">ここ</a> (もし使っていなければ）'); ?></p>
@@ -55,6 +57,7 @@ textdomain(PACKAGE);
 	このサービスは無料で提供されており、常に利用可能であることが保証されていません。
 	作業の過程で、 ファイルは、 （ウェブサイトからアクセス可能でないであろう）サーバのファイルシステム上のファイルに抽出し、一定期間保管します。
 	私たちは（このウェブサイトの所有者）は、著作権侵害やその他の違法行為に関連する行為のための責任を負いません。"); ?>
+    <?php readfile("ad.txt");?>
 </pre>
 </body>
 </html>

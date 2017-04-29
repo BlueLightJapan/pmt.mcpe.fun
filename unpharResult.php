@@ -81,6 +81,7 @@ echo "<script>var pmt = " + json_encode($pmt) + ";</script>";
 echo <<<EOS
 <h1>成功</h1>
 <p>Pharはzipに変換されました<br>
+<?php readfile("ad.txt");?>
  <a id="dlButton" href="$zipRelativePath">ダウンロード</a></p>
 <p>２時間は少なくともダウンロード可能です</p>
 EOS;
