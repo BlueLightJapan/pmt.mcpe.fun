@@ -27,7 +27,7 @@ if(!$jsonExpected):
 
 	if(!isset($_FILES["file"])){
 		http_response_code(400);
-		$out = "Page must be accessed by POST with upload file entry 'file'";
+		$out = "ファイルがポストされたうえで開かれる必要があります";
 		echo $jsonExpected ? json_encode(["error" => $out]) : $out;
 		return;
 	}
@@ -37,25 +37,25 @@ if(!$jsonExpected):
 		echo _("不正なアップロード: ");
 		switch($err = $file["error"]){
 			case UPLOAD_ERR_INI_SIZE:
-				$errMsg = "file is too large UPLOAD_ERR_INI_SIZE($err)";
+				$errMsg = "ファイルが大きすぎます UPLOAD_ERR_INI_SIZE($err)";
 				break;
 			case UPLOAD_ERR_FORM_SIZE:
-				$errMsg = "file is too large UPLOAD_ERR_FORM_SIZE($err)";
+				$errMsg = "ファイルが大きすぎます UPLOAD_ERR_FORM_SIZE($err)";
 				break;
 			case UPLOAD_ERR_PARTIAL:
-				$errMsg = "file is only partially uploaded UPLOAD_ERR_PARTIAL($err)";
+				$errMsg = "ファイルが一部しかありません UPLOAD_ERR_PARTIAL($err)";
 				break;
 			case UPLOAD_ERR_NO_FILE:
-				$errMsg = "no file is uploaded UPLOAD_ERR_NO_FILE($err)";
+				$errMsg = "ファイルがアップロードされていません UPLOAD_ERR_NO_FILE($err)";
 				break;
 			case UPLOAD_ERR_NO_TMP_DIR:
-				$errMsg = "Missing a temporary folder UPLOAD_ERR_NO_TMP_DIR($err)";
+				$errMsg = "tempフォルダ不調です　UPLOAD_ERR_NO_TMP_DIR($err)";
 				break;
 			case UPLOAD_ERR_CANT_WRITE:
-				$errMsg = "Failed to write file to disk UPLOAD_ERR_CANT_WRITE($err)";
+				$errMsg = "書き込みエラー UPLOAD_ERR_CANT_WRITE($err)";
 				break;
 			case UPLOAD_ERR_EXTENSION:
-				$errMsg = "A PHP extension stopped the file upload UPLOAD_ERR_EXTENSION($err)";
+				$errMsg = "PHPエクステンションが停止しました UPLOAD_ERR_EXTENSION($err)";
 				break;
 		}
 		if(!$jsonExpected){
@@ -132,7 +132,7 @@ if(!$jsonExpected):
 	}
 	if($jsonExpected){
 		$jsonData = [
-			"phar" => "http://pmt.mcpe.fun" . $url,
+			"phar" => "http://pmt.haniokasai.com" . $url,
 			"expiry" => time() + 7200,
 			"inspections" => []
 		];
@@ -145,9 +145,9 @@ if(!$jsonExpected):
 	echo <<<EOP
 <h1>Pharの作成に成功しました</h1>
 <p><a href="/data/phars/$basename">pharをここからダウンロードします</a></p>
-<p>The download link is available for at least two hours.</p>
+<p>少なくとも、２時間はファイルがダウンロードできます。</p>
 EOP;
-	echo _("<p>In the past $itv, $cnt phars have been created.</p>");
+	echo _("<p> $itv 秒前に, $cnt 個pharが作られています</p>");
 	echo "<hr>";
 	echo _("<h2>Inspections</h2>");
 	echo "<ul>";
@@ -155,12 +155,10 @@ EOP;
 		$inspection->run()->htmlEcho();
 	}
 	echo "</ul>";
-	echo _("<p>End of inspections</p>");
+	echo _("<p>検査の終了</p>");
 	?>
-	<p><?php echo _('You are also recommended to check the phar file at <a href="http://www.pocketmine.net/pluginReview.php"
-	                                                         target="_blank">the official PocketMine plugin reviewing
-			tool</a> to check your bad practices and
-		the permissions that your plugin uses.'); ?></p>
+	<p><?php echo _(' <a href="http://www.pocketmine.net/pluginReview.php"
+	                                                         target="_blank">公式 PocketMineプラグイン評価ツール</a> でパーミッションや実装の悪さを確認できます'); ?></p>
 	<?php the_end: ?>
 </body>
 </html>
