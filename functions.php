@@ -27,7 +27,7 @@ define("SERVER_PATH", "/web/pmt/", true);
 define("DATA_PATH", "/web/pmt/data/");
 @mkdir(DATA_PATH, 0777, true);
 @mkdir(DATA_PATH . "phars");
-define("TMP_PATH", "/web/pmt/tmp/");
+define("TMP_PATH", "/web/pmttmp/tmp");
 @mkdir(TMP_PATH, 0777, true);
 
 //define("GITHUB_OAUTH_TOKEN", file_get_contents(SERVER_PATH . "token.txt"));

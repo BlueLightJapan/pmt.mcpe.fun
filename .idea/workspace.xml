@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="351af737-75bf-42d1-a2eb-242eca9c9bcd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/functions.php" afterPath="$PROJECT_DIR$/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unphar.php" afterPath="$PROJECT_DIR$/unphar.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
-              <caret line="150" column="121" lean-forward="false" selection-start-line="150" selection-start-column="103" selection-end-line="150" selection-end-column="121" />
+              <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -125,6 +125,7 @@
     <findStrings>
       <find>echo</find>
       <find>GITHUB_OAUTH_TOKEN</find>
+      <find>tmp</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -312,12 +313,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1493443283127</updated>
-      <workItem from="1493443284524" duration="1694000" />
+      <workItem from="1493443284524" duration="1903000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1694000" />
+    <option name="totallyTimeSpent" value="1903000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -490,7 +491,7 @@
     <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="150" column="121" lean-forward="false" selection-start-line="150" selection-start-column="103" selection-end-line="150" selection-end-column="121" />
+          <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
           <folding />
         </state>
       </provider>
