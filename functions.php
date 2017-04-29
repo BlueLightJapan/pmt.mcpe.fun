@@ -15,7 +15,7 @@ register_shutdown_function(function(){
 		return;
 	}
 	$time = microtime(true) - START_TIME;
-	echo "<br><hr><p>Page generated in $time second(s)</p>";
+	echo "<br><hr><p>ページは $time 秒で生成されました</p>";
 	if(!IS_UNDER_MAINTENANCE){
 		deldir(TMP_PATH);
 	}
@@ -181,7 +181,7 @@ function phar_buildFromZip($zipPath, $name = "", TuneArgs $args){
 		$result["error_id"] = $err;
 		switch($err){
 			case ZipArchive::ER_EXISTS:
-				echo "ER_EXISTS($err) File already exists";
+				echo "ER_EXISTS($err) ファイルがすでに存在します";
 				$result["error_name"] = "ER_EXISTS";
 				$result["error_msg"] = "File already exists";
 				break;
@@ -307,7 +307,7 @@ function phar_addDir(Phar $phar, $include, $realpath){
 			continue;
 		}
 		$relative = rtrim($include, "/\\") . "/" . ltrim(substr(realpath($file), strlen($realpath)), "/\\");
-		echo "Adding file $file to include path $relative\r\n";
+		echo "$relative　に　$file　を追加しています\r\n";
 		$phar->addFile($file, $relative);
 	}
 }
@@ -336,7 +336,7 @@ function tuneFile($file, TuneArgs $args){
 				continue;
 			}
 			if(!isset($tokens[$i + 1])){
-				echo "<pre>Error: Cannot optimize file " . basename($file) . " because of a syntax error: unexpected end of file</pre>";
+				echo "<pre>エラー: ファイルを最適化できません" . basename($file) . " シンタックスエラーがあります: 予期しないファイルの最終行</pre>";
 			}
 			$next = $tokens[$i + 1];
 			if(is_array($next)){
@@ -422,36 +422,36 @@ function unphar_toZip($tmpName, &$result, $name = ""){
 		$result["basename"] = substr($rel, 12);
 		$err = $zip->open($file, ZipArchive::CREATE);
 		if($err !== true){
-			$msg = "Error creating zip file: ";
+			$msg = "zipファイル作成エラー: ";
 			switch($err){
 				case ZipArchive::ER_EXISTS:
-					$msg .= "ER_EXISTS ($err) File already exists ($file)";
+					$msg .= "ER_EXISTS ($err)ファイルが既に存在します ($file)";
 					break;
 				case ZipArchive::ER_INCONS:
-					$msg .= "ER_INCONS ($err) Zip archive inconsistent.";
+					$msg .= "ER_INCONS ($err) Zipファイルが壊れています.";
 					break;
 				case ZipArchive::ER_INVAL:
-					$msg .= "ER_INVAL ($err) Invalid argument.";
+					$msg .= "ER_INVAL ($err) 不適切な引数です.";
 					break;
 				case ZipArchive::ER_MEMORY:
-					$msg .= "ER_MEMORY ($err) Malloc failure.";
+					$msg .= "ER_MEMORY ($err) メモリ確保のエラーです.";
 					break;
 				case ZipArchive::ER_NOENT:
-					$msg .= "ER_NOENT ($err) No such file.";
+					$msg .= "ER_NOENT ($err)そのようなファイルはありません.";
 					break;
 				case ZipArchive::ER_NOZIP:
-					$msg .= "ER_NOZIP ($err) Not a zip archive.";
+					$msg .= "ER_NOZIP ($err) zipアーカイブではありません.";
 					break;
 				case ZipArchive::ER_OPEN:
-					$msg .= "ER_OPEN ($err) Can't open file.";
+					$msg .= "ER_OPEN ($err) ファイルを開けません.";
 					break;
 				case ZipArchive::ER_READ:
-					$msg .= "ER_READ ($err) Read error.";
+					$msg .= "ER_READ ($err)　読み込みエラー.";
 					break;
 				case ZipArchive::ER_SEEK:
-					$msg .= "ER_SEEK ($err) Seek error.";
+					$msg .= "ER_SEEK ($err)　シークエラー.";
 			}
-			throw new RuntimeException($msg . " Dump: " . var_export($result, true));
+			throw new RuntimeException($msg . " ダンプ: " . var_export($result, true));
 		}
 		$tmpDir = realpath($tmpDir);
 		foreach(new RecursiveIteratorIterator(new RecursiveDirectoryIterator($tmpDir)) as $file){

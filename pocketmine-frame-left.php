@@ -19,7 +19,7 @@ textdomain(PACKAGE);
 		<li><a href="/crashdump/" target="content"><?php echo _('PocketMineのCrash Dump解析'); ?></a></li><br>
 		<li><a href="/pmb/" target="content"><?php echo _('PocketMineのpharの作成'); ?></a></li><br>
 	</ul>
-	<input type="button" value="<?php echo _('Reload content frame'); ?>" onclick="parent.content.location.reload()">
+	<input type="button" value="<?php echo _('メニューを更新'); ?>" onclick="parent.content.location.reload()">
 	<br>
 
 </body>
