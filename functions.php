@@ -30,7 +30,7 @@ define("DATA_PATH", "/web/pmt/data/");
 define("TMP_PATH", "/web/pmt/tmp/");
 @mkdir(TMP_PATH, 0777, true);
 
-define("GITHUB_OAUTH_TOKEN", file_get_contents(SERVER_PATH . "token.txt"));
+//define("GITHUB_OAUTH_TOKEN", file_get_contents(SERVER_PATH . "token.txt"));
 
 const MAKEPHAR_ERROR_NO = 0;
 const MAKEPHAR_ERROR_OPENZIP = 1;
@@ -148,7 +148,7 @@ function utils_getURL($page, $timeout = 2){
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 	$prefix = "https://api.github.com";
 	if(substr($prefix, 0, strlen($prefix)) === $prefix){
-		curl_setopt($ch, CURLOPT_HTTPHEADER, ["Accept: application/json", "Authorization: Bearer " . GITHUB_OAUTH_TOKEN]);
+        //curl_setopt($ch, CURLOPT_HTTPHEADER, ["Accept: application/json", "Authorization: Bearer " . GITHUB_OAUTH_TOKEN]);
 	}
 	curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, (int) $timeout);
 	$ret = curl_exec($ch);

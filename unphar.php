@@ -15,15 +15,15 @@ textdomain(PACKAGE);
 <h1><?php echo _('Unphar'); ?></h1>
 <hr>
 <form method="post" action="/unpharResult.php" enctype="multipart/form-data">
-	<p><?php echo _('Upload the phar file here:'); ?><br><input type="file" name="file" accept=".phar"></p>
+	<p><?php echo _('ここにpharファイルをアップロードしてください:'); ?><br><input type="file" name="file" accept=".phar"></p>
 	<p><input type="submit" value="Convert"></p>
 </form>
 <pre>
-	<?php echo _("Disclaimer:
-	This service is provided absolutely free of charge and is not guaranteed to be always available.
-	This page (unphar.php) only unpacks files uploaded from users from a phar format to a zip format, and in the process, the phar file is extracted into files on the server's filesystem (which is not expected to be accessible from the website). This page unpacks the uploaded files AS-IS, and the process is 100% automated.
-	This website (http://pmt.mcpe.fun) is in no ways affiliated with PocketMine-MP (http://pocketmine.net), an open-source project developed by the PocketMine Team, or Minecraft: PE, a game software developed by Mojang.
-	We (owner of this website) are not to be held responsible for any acts related to copyright breaches and other illegal acts. All contents in the downloaded files are either generated using the uploaded file or the software used for this website."); ?>
+	<?php echo _("免責事項：
+	このサービスは無料で提供されており、常に利用可能であることが保証されていません。
+	このページ（ unphar.phpは）のみzip形式へのphar形式からユーザーからアップロードされたファイルを解凍し、
+	その過程で、 phar形式のファイルは、 （ウェブサイトからアクセス可能でないであろう）サーバのファイルシステム上のファイルに抽出し、一定期間保管します。
+	私たちは（このウェブサイトの所有者）は、著作権侵害やその他の違法行為に関連する行為のための責任を負いません。"); ?>
 </pre>
 
 </body>
