@@ -2,7 +2,7 @@
 include "functions.php";
 ?><html>
 <head>
-	<title>Phar extraction result</title>
+	<title>Phar展開結果</title>
 	<link rel="stylesheet" href="/css/main.css" />
 	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script>
@@ -37,8 +37,8 @@ EOD;
 }
 $file = $_FILES["file"];
 if($file["error"] !== 0){
-	echo "<h1>Failure</h1>";
-	echo "Invalid upload: ";
+	echo "<h1>失敗</h1>";
+	echo "不適切なアップデート: ";
 	switch($err = $file["error"]){
         case UPLOAD_ERR_INI_SIZE:
             $errMsg = "ファイルが大きすぎます UPLOAD_ERR_INI_SIZE($err)";

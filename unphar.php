@@ -8,11 +8,11 @@ textdomain(PACKAGE);
 ?>
 <html>
 <head>
-	<title><?php echo _('Unphar'); ?></title>
+	<title><? echo _('Pharの展開'); ?></title>
 	<link rel="stylesheet" href="/css/main.css" />
 </head>
 <body>
-<h1><?php echo _('Unphar'); ?></h1>
+<h1><?php echo _('Pharの展開'); ?></h1>
 <hr>
 <form method="post" action="/unpharResult.php" enctype="multipart/form-data">
 	<p><?php echo _('ここにpharファイルをアップロードしてください:'); ?><br><input type="file" name="file" accept=".phar"></p>
